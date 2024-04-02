@@ -2,6 +2,12 @@
     background-color: rgb(95, 201, 243);
  }
 
+.container__rewievs {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
  .rewievs__subtitle {
     margin-top: 37px;
     color: rgb(255, 255, 255);
@@ -14,11 +20,32 @@
  }
 
 
- .bxslder{
-    height: 350px;
-    display: flex;
+ .bx-wrapper {
+   margin: 10px auto;
+   width: 1100px;
+   border: none;
+   box-shadow: none;
+   position: relative;
+   margin-bottom: 31px;
  }
 
+ /* Стилизация паджера */
+ .bx-wrapper .bx-pager.bx-default-pager a  {
+   background: rgb(255, 255, 255);
+   opacity: 0.5;
+ }
+
+ .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: white;
+    opacity: 1;
+ }
+ 
+ .bxslder{
+    display: flex;
+    background-color: rgb(95, 201, 243);
+ }
+
+ 
  
  .rewievs__title{
     margin-top: 8px;
@@ -71,4 +98,21 @@
     line-height: 23px;
     letter-spacing: 5%;
     text-align: center;
+}
+
+
+.rewievs__btn {
+   margin-top: 30px;
+   width: 289px;
+   height: 57px;
+   border-radius: 13px;
+   background: rgb(255, 255, 255);
+   border-color: none;
+   color: rgb(0, 0, 0);
+   cursor: pointer;
+   margin-bottom: 110px;
+}
+
+.rewievs__btn:hover {
+   background-color: rgb(95, 201, 243);
 }
