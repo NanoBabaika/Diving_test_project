@@ -1,3 +1,7 @@
+.blog__section {
+    background-color: white;
+}
+
 .container__blog {
     display: flex;
     flex-direction: column;
